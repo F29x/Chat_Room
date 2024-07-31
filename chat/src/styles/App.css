@@ -1,0 +1,97 @@
+/* styles/App.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .AppWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3440bc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+    
+
+  }
+  
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .room {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #roomName {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #2c2c30;
+    color: #ccc;
+    
+  }
+  .enter{
+    background-color: #3b91ce;
+  }
+  button:not(:disabled):hover {
+    opacity: 0.8;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  button.enter-chat-button {
+    background-color: #01781b;
+    color: white;
+  }
+  
+  button.leave-chat-button {
+    background-color: #c52636;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  button.google-signin-button {
+    background-color: #174691;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
